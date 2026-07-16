@@ -1,0 +1,23 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/ScoreHUD.uss?fileID=7433441132597879392&amp;guid=20885a2b24f8e094db2bb26aae202ed8&amp;type=3#ScoreHUD" />
+    <engine:VisualElement name="container" style="flex-grow: 1; align-content: auto; flex-direction: row; justify-content: center; align-self: auto; height: 200px; max-height: 200px;">
+        <engine:VisualElement name="player1Score" class="scoreBox" style="flex-grow: 1; background-color: rgb(178, 208, 34);">
+            <engine:Label text="$000K" name="player-1-score-text" class="scoreText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="player2Score" class="scoreBox" style="flex-grow: 1; background-color: rgb(47, 134, 186);">
+            <engine:Label text="$000K" name="player-2-score-text" class="scoreText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="player3Score" class="scoreBox" style="flex-grow: 1; background-color: rgb(216, 119, 37);">
+            <engine:Label text="$000K" name="player-3-score-text" class="scoreText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="player3Score" class="scoreBox" style="flex-grow: 1; background-color: rgb(214, 98, 218);">
+            <engine:Label text="$000K" name="player-4-score-text" class="scoreText" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="time-container" style="flex-grow: 1; width: 100px; height: 100px; max-width: 100px; max-height: 100px; margin-top: 50px; margin-left: 50px; margin-right: 50px;">
+            <engine:Label text="30" name="timer" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-left: 4px; padding-right: 4px; width: 100px; height: 100px; -unity-text-align: middle-center; -unity-font-style: bold; color: rgb(244, 255, 0); font-size: 60px; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="countdown-container" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; align-content: center; justify-content: center;">
+        <engine:Label text="3" name="countdown" style="font-size: 120px; color: rgb(244, 255, 0); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-right: 0; padding-top: 0; padding-left: 0; -unity-text-align: middle-center; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0); -unity-font-style: bold;" />
+    </engine:VisualElement>
+</engine:UXML>
